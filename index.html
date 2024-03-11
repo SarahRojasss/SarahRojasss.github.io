@@ -1,39 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,
-  initial-scale=1.0">
-  <title>My Personal Website</title>
-  <link rel="stylesheet" href="Style.css">
-</head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #9CBDD3;
+            color: #323031;
+        }
+
+        header {
+            background-color: #81ADC8;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #AAC7DA;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #81ADC8;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
 <body>
-  <nav>
-    <div class="logo">Sarah Rojas</div>
-    <div class="nav-items">
-      <a href="Bio.html">
-    <button>BIO!</button>
-</a>
-<a href="Myinterests.html">
-    <button>INTERESTS!</button>
-</a>
-<a href="Hobbies.html">
-    <button>HOBBIES!</button>
-</a>
-    </a>
-    </div>
-  </nav>
-  <section class="hero">
-    <div class="hero-container">
-      <div class="column-left">
-        <h1>Personal Website</h1>
-        <p>This website goes through multiple highlights of things I enjoy doing. It ranges from my typical interests to what I do in my free time. My goal with this website is to illustrate those aspects of my life to others in or around my community. By clicking through the different tabs at top left of the screen, you will be redirected to a certain page that goes into more detail on these topics.</p>
-        <button>Get Started</button>
-      </div>
-      <div class="column-right">
-        <img src="./Personalpicture.png" alt="young girl at a restaurant" class="hero.image"> 
-      </div>
-    </div>
-  </section>
+
+<header>
+    <h1>Sarah Rojas</h1>
+</header>
+
+<nav>
+    <a href="Myinterests.html">Interests</a>
+    <a href="Hobbies.html">Hobbies</a>
+    <a href="Gallery.html">Gallery</a>
+
+</nav>
+
+<section>
+    <h2>Welcome to My Personal Website</h2>
+    <p>This website goes through multiple highlights of things I enjoy doing. It ranges from my typical interests to what I do in my free time. My goal with this website is to illustrate those aspects of my life to others in or around my community. By clicking through the different tabs at top of the screen, you will be redirected to a certain page that goes into more detail on these topics.</p>
+     <img src="Personalpicture.png" alt="Girl Sitting In a Restaurant" class="small-image">
+</section>
+
+<footer>
+    <p>&copy; 2024 Personal Website. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
